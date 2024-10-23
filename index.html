@@ -506,9 +506,9 @@
         // these IDs from the previous steps
         emailjs.sendForm('contact_service', 'contact_form', this)
           .then(() => {
-            console.log('SUCCESS!');
+            alert('SUCCESS!');
           }, (error) => {
-            console.log('FAILED...', error);
+            alert('FAILED...', error);
           });
       });
     }
